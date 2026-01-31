@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+};
+
+
+.mainmenu{
+    margin-top: 0;
+    background-color: black;
+    list-style-type:  none;
+    color: white;
+    display: block;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-items: center;
+};
+
+li{
+    display: inline-block;
+    margin-right: 10%;
+    margin-left: 12%;
+    align-items: center;
+   text-decoration: none
+
+};
+
+a{
+    color: white;
+    text-decoration: none;
+    
+};
+
+a:hover{
+    color: red;
+};
